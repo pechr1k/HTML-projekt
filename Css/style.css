@@ -1,0 +1,14 @@
+.aktivnavbar {
+    cursor: default;
+    font-weight: 700;
+    
+}
+
+@font-face {
+    font-family: BasicFont;
+    src: url(/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+head {
+    font-family: 'Times New Roman', Times, serif;
+}
