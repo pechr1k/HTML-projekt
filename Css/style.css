@@ -1,14 +1,53 @@
+@font-face {
+    font-family: CostumeFont;
+    src: url(/Fonts/montserrat-variablefont_wght-webfont.woff2);
+}
+
 .aktivnavbar {
     cursor: default;
     font-weight: 700;
-    
 }
 
-@font-face {
-    font-family: BasicFont;
-    src: url(/Fonts/Montserrat-VariableFont_wght.ttf);
+.navbar {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.navbg{
+    background-image: url(/Images/header/croppedsky.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 head {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    background-image: url(/Images/header/croppedsky.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerimg {
+    width: 100%;
+    position:relative;
+}
+
+.bannertext {
+    font-family: CostumeFont;
+    position: -webkit-sticky;
+    position: sticky;
+    top:20%;
+    margin-left: 8%;
+    margin-right: auto;
+    font-size: 7.5vw;
+    font-weight: 700;
 }
