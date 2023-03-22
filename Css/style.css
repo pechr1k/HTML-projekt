@@ -9,7 +9,7 @@
 }
 
 .nav-link{
-    color: black;
+    color: black !important;
 }
 
 .navbar {
@@ -54,4 +54,5 @@ head {
     margin-right: auto;
     font-size: 7.5vw;
     font-weight: 700;
+    text-shadow: 2px 2px 10px black;
 }
