@@ -8,6 +8,10 @@
     font-weight: 700;
 }
 
+.nav-link{
+    color: black;
+}
+
 .navbar {
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
