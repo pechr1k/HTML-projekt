@@ -1,0 +1,7 @@
+Színkódok:
+#DFF0F8
+#111927
+#1f1e1e
+
+Git animations:
+https://github.com/michalsnik/aos#animations

@@ -1,0 +1,12 @@
+Home tartalom:
+
+-MUNKÁINK
+    rendelés szám counter animációval
+    carusel, valami extra hover
+-RENDELÉS
+    lehetőségek, szolgáltatások
+-KAPCSOLAT
+    irodáink
+-dolgozz nálunk
+    demo, mit kínálunk
+-Footer
