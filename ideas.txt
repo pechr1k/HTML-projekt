@@ -1,10 +1,15 @@
-scrollbar
-navbar design
-better Banner
-footer
-tartalom
+Home tartalom:
+-MUNKÁINK
+    rendelés szám counter animációval
+-RENDELÉS
+-KAPCSOLAT
+-dolgozz nálunk
+-Footer
 
-
-
+Színkódok:
 #DFF0F8
 #111927
+#1f1e1e
+
+git animations:
+https://github.com/michalsnik/aos#animations

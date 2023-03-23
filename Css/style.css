@@ -1,6 +1,18 @@
+@font-face {
+    font-family: CostumeFont;
+    src: url(/Fonts/montserrat-variablefont_wght-webfont.woff2);
+}
+
+body {
+    overflow: overlay;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* ANIMATION */
 @keyframes textSlidefromBottom{
     from {
-        transform: translateY(80%)
+        transform: translateY(400%)
     }
 
     to{
@@ -8,36 +20,46 @@
     }
 }
 
-/* width */
+/* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 9px;
 }
 
-  /* Track */
 ::-webkit-scrollbar-track {
-    background: #DFF0F8;
+    background: transparent;
 }
 
-  /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(59, 59, 59);
+    background: #1f1e1e;
 }
 
-  /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
-/* FONT */
-@font-face {
-    font-family: CostumeFont;
-    src: url(/Fonts/montserrat-variablefont_wght-webfont.woff2);
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    padding-right: 9px;
 }
 
 /* NAVBAR */
 .aktivnavbar {
     cursor: default;
     font-weight: 700;
+}
+
+.navbar-brand {
+    font-size: 20pt; 
+    font-weight: bold; 
+    font-family: CostumeFont;
+}
+
+.navlogo {
+    width: 6%;
+    margin-top: 7px;
 }
 
 .nav-link{
@@ -90,7 +112,7 @@ head {
     text-shadow: 2px 2px 10px black;
     height: 10%;
     white-space: nowrap;
-    animation: textSlidefromBottom 1s ease-in 0s 1 normal both;
+    animation: textSlidefromBottom 0.5s ease-in 0.5s 1 normal both;
 }
 
 .bannertext > .slogan {
@@ -102,10 +124,62 @@ head {
     top: -10px;
 }
 
-/* ELVALASZTO */
-.elvalaszto {
-    position: relative;
+/* SECTION ONE */
+.section1img {
     width: 100%;
-    height: 30px;
-    background-color: rgb(65, 65, 65);
+}
+
+.bggray{
+    background-color: #1f1e1e;
+}
+
+.section1bg {
+    background-color: #1f1e1e;
+    width: 100%;
+    position:relative;
+    margin-right: 0px;
+    margin-left: 0;
+    top: -1px;
+}
+
+.section1cim {
+    font-family: CostumeFont;
+    font-size: 5vw;
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    width: 100%;
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+hr {
+    background-color:#60A7DB;
+    margin-top: -3%;
+    position: relative;
+    right: -15%;
+    width: 70%;
+    height: 2px;
+}
+
+.section1text {
+    color: white;
+    font-family: CostumeFont;
+    font-size: 1.3vw;
+    text-align: justify;
+    padding-right: 30%;
+    padding-left: 10%;
+    margin-top: 4%;
+}
+
+.alsoszekcio {
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.section1button {
+    font-family: CostumeFont;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-weight: 500;
 }
