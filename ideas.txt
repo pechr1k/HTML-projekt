@@ -3,3 +3,7 @@ navbar design
 better Banner
 footer
 tartalom
+
+
+
+#DFF0F8
