@@ -21,3 +21,9 @@ function backToTop() {
 }
 
 const swup = new Swup();
+
+let atvezeto1 = document.querySelector('.scroll');
+window.onscroll = () =>{
+    let pos = window.scrollY -800;
+    atvezeto1.style.left = ${pos}px
+}

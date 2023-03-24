@@ -1,6 +1,12 @@
+/* FONT */
 @font-face {
     font-family: CostumeFont;
-    src: url(/Fonts/montserrat-variablefont_wght-webfont.woff2);
+    src: url(/Fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: CostumeFontNormal;
+    src: url(/Fonts/Montserrat-Medium.ttf);
 }
 
 @font-face {
@@ -13,10 +19,9 @@
     src: url(/Fonts/Montserrat-SemiBold.ttf);
 }
 
-body {
-    overflow: overlay;
-    margin: 0;
-    overflow-x: hidden;
+@font-face {
+    font-family: OutlineFont;
+    src: url(/Fonts/Arialic\ Hollow.ttf);
 }
 
 /* UP BUTTON */
@@ -49,17 +54,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* ANIMATION */
-@keyframes textSlidefromBottom{
-    from {
-        transform: translateY(400%)
-    }
-
-    to{
-        transform: translateY(0px);
-    }
-}
-
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 9px;
@@ -83,6 +77,12 @@ html {
 
 .content {
     padding-right: 9px;
+}
+
+body {
+    overflow: overlay;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
