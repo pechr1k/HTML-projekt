@@ -5,3 +5,6 @@ Színkódok:
 
 Git animations:
 https://github.com/michalsnik/aos#animations
+
+https://codepen.io/aija/pen/xvXWoK
+https://99designs.com/inspiration/websites/construction
