@@ -268,7 +268,7 @@ hr {
     width: 70%;
 }
 
-ul {
+.section3list {
     margin-top: 5%;
     font-family: CostumeFontNormal;
 }
@@ -289,4 +289,13 @@ li > p {
     position: absolute;
     left: -70%;
     top: 60%;
+}
+
+.section4vid {
+    width: 100%;
+}
+
+.info {
+    position: relative;
+    top: 0;
 }
