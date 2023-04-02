@@ -199,6 +199,10 @@ hr {
     right: 16%;
 }
 
+.slidebtns > a {
+    width: 100%;
+}
+
 .section2slidebutton {
     width: 4vw;
     height: 4vw;
