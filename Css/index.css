@@ -670,7 +670,6 @@ fieldset[disabled] .btn {
 
 .modal {
     background-color: #1f1e1e7e;
-    font-family: CostumeFontNormal;
     color: white;
     border: black;
 }
@@ -681,6 +680,7 @@ fieldset[disabled] .btn {
 
 .modal-header{
     border-color: black;
+    font-family: CostumeFontNormal;
 }
 
 .modal-header,
@@ -692,4 +692,5 @@ fieldset[disabled] .btn {
 
 .modal-body {
     background-color: #353535;
+    font-family: CostumeFont;
 }
