@@ -582,3 +582,21 @@ input:checked[type="checkbox"]:before{
 .card-body > p {
     color: rgb(218, 218, 218);
 }
+
+/* SECTION SIX */
+.s6l {
+    background-image: url(/Images/home/section6/bg.jpg);
+    background-size: cover;
+}
+
+.terkep{
+    width: 110%;
+}
+
+.footer {
+    background-color: #1f1e1e;
+}
+
+body {
+    background-color: #1f1e1e;
+}
