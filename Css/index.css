@@ -675,10 +675,19 @@ fieldset[disabled] .btn {
     border: black;
 }
 
+.modal-content{
+    background-color: transparent;
+}
+
+.modal-header{
+    border-color: black;
+}
+
 .modal-header,
 .modal-footer 
 {
     background-color: #2c2c2c;
+    border-color: rgb(34, 34, 34);
 }
 
 .modal-body {
