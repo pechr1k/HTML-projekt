@@ -556,4 +556,16 @@ input:checked[type="checkbox"]:before{
 .card {
     margin-top: 20%;
     margin-bottom: 20%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.card>img {
+    width: 15rem;
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.card-body > p {
+    color: rgb(218, 218, 218);
 }
