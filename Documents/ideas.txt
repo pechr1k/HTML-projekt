@@ -1,12 +1,11 @@
-Home tartalom:
-
--MUNKÁINK
+-vásárlóink véleményei
     rendelés szám counter animációval
-    carusel, valami extra hover
--RENDELÉS
-    lehetőségek, szolgáltatások
--KAPCSOLAT
-    irodáink
+    cardok véleményekkel
+
+-kapcsolat
+    -google maps, nyitvatartás
+    valami extra hover
+
 -dolgozz nálunk
     demo, mit kínálunk
 -Footer

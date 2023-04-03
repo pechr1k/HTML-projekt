@@ -183,3 +183,7 @@ head {
     font-weight: 900;
     font-family: CostumeFontSemiBold;
 }
+
+.navbarbtn:active {
+    transform: translateY(4px);
+}
