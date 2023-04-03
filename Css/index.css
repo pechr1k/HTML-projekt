@@ -590,7 +590,9 @@ input:checked[type="checkbox"]:before{
 }
 
 .terkep{
-    width: 110%;
+    width: 100%;
+    height: 45rem;
+    margin-bottom: -0.5%;
 }
 
 .footer {
@@ -599,4 +601,26 @@ input:checked[type="checkbox"]:before{
 
 body {
     background-color: #1f1e1e;
+}
+
+.section6 {
+    background-image: url(/Images/home/section6/bg.jpg);
+    background-size: 100%;
+}
+
+.zarva {
+    text-align: center;
+}
+
+.table {
+    background-color: #1f1e1e5d;
+}
+
+th {
+    background-color: #1f1e1eb2;
+}
+
+tr:hover {
+    font-family: CostumeFontNormal;
+    font-weight: 100;
 }
