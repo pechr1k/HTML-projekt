@@ -218,25 +218,25 @@
 				<source src="/Images/home/section4.mp4" type="video/mp4">
 			</video>
 			<div data-aos="fade-up" class="box">
-				<div class="form">
+				<form class="form" onsubmit="return validateForm()">
 					<h2>Megrendelés</h2>
 					<div class="inputBox">
-						<input type="text" required="Kötelező">
+						<input type="text" id="text" required>
 						<span>Teljes név</span>
 						<i></i>
 					</div>
 					<div class="inputBox">
-						<input type="password" required="Kötelező">
+						<input type="password" id="passw" required>
 						<span>Jelszó</span>
 						<i></i>
 					</div>
 					<div class="inputBox">
-						<input type="email" required="Kötelező">
+						<input type="email" id="email" required>
 						<span>Email</span>
 						<i></i>
 					</div>
 					<div class="inputBox">
-						<input type="tel" required="Kötelező">
+						<input type="tel" id="tel" required>
 						<span>Telefonszám</span>
 						<i></i>
 						</div class="select">
@@ -253,11 +253,28 @@
                             <input type="checkbox" name="checkbox" required>
                             <span class="link">Elfogadom <a href="">Felhasználói feltételeket.</a>*</span>
                         </div>
-						<input type="submit" value="Elküldés">    
+						<input type="submit" data-whatever="@mdo" data-target="#submitModal" data-toggle="modal" value="Elküldés">    
+					</div>
+				</form>
+			</div>
+		</div>
+        <!-- submitModal -->
+        <div class="modal fade " id="submitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="submitModalLabel">Köszönjük a megrendelést!</h5>
+					</div>
+					<div class="modal-body">
+						<p>A megrendelés feldolgozásáról értesítjük e-mailben!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
 					</div>
 				</div>
 			</div>
 		</div>
+        <!-- <button data-whatever="@mdo" data-target="#exampleModal" data-toggle="modal" class="navbarbtn btn btn-outline-dark btn-rounded" data-mdb-ripple-color="dark">Dolgozz nálunk!</button> -->
 		<!-- SECTION FIVE -->
 		<div class="bggray sectionfive">
 			<div class="row cardok">
